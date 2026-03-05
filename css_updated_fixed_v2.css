@@ -168,3 +168,25 @@ body{
   .header{ padding:16px; }
   .header img{ height:58px; }
 }
+/* ===== FIX IMAGENES EN CARDS (PEGAR AL FINAL) ===== */
+.card-img{
+  width: 100%;
+  height: 190px;
+  border-radius: 12px;
+  margin-bottom: 10px;
+
+  background-size: cover !important;
+  background-position: center !important;
+  background-repeat: no-repeat !important;
+}
+
+/* RUTAS (SIN ./ PARA EVITAR PROBLEMAS) */
+.card-img-1{ background-image: url('imagenes/cursos2.jpg') !important; }
+.card-img-2{ background-image: url('imagenes/pishsin.jpg') !important; }
+.card-img-3{ background-image: url('imagenes/nube.jpg') !important; }
+
+/* Usa archivos que EXISTEN (ajusta si tienes otros nombres) */
+.card-img-4{ background-image: url('imagenes/pexels-enginakyurt-4056202.jpg') !important; }
+.card-img-5{ background-image: url('imagenes/tokens.jpg') !important; }
+
+.card-img-6{ background-image: url('imagenes/portafolio.jpg') !important; }
