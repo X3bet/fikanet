@@ -228,3 +228,33 @@ body{
 @media (max-width:768px){
   body{ outline: 6px solid red !important; }
 }
+@media (max-width: 768px){
+
+  /* CUADRO CELESTE (si tu bloque usa hero-panel) */
+  .hero-panel{
+    max-width: 92% !important;
+    margin: 18px auto !important;
+    padding: 22px 18px !important;
+    border-radius: 18px !important;
+  }
+
+  /* Si en tu HTML el cuadro es otra clase, esto también lo achica */
+  .about-card, .about-box, .about-section, .quienes, .quienes-section{
+    max-width: 92% !important;
+    margin: 18px auto !important;
+    padding: 22px 18px !important;
+    border-radius: 18px !important;
+  }
+
+  /* Logo centrado y más grande */
+  header{
+    text-align: center !important;
+  }
+
+  header img{
+    display: block !important;
+    margin: 12px auto 18px auto !important;
+    width: 150px !important;
+    height: auto !important;
+  }
+}
