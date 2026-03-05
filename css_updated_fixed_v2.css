@@ -190,3 +190,38 @@ body{
 .card-img-5{ background-image: url('imagenes/tokens.jpg') !important; }
 
 .card-img-6{ background-image: url('imagenes/portafolio.jpg') !important; }
+
+/* ===== AJUSTES SOLO PARA CELULAR ===== */
+@media (max-width: 768px){
+
+/* cuadro celeste más pequeño */
+.quienes-box{
+    max-width:90%;
+    margin:20px auto;
+    padding:25px 20px;
+    border-radius:20px;
+}
+
+/* texto grande más compacto */
+.quienes-box h2{
+    font-size:18px;
+}
+
+.quienes-box h1{
+    font-size:34px;
+    line-height:1.2;
+}
+
+/* logo centrado y más grande */
+.logo{
+    display:block;
+    margin:10px auto 20px auto;
+    width:140px;
+}
+
+/* dock de redes un poco más abajo */
+.social-dock{
+    top:220px;
+}
+
+}
