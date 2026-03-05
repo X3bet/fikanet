@@ -225,3 +225,6 @@ body{
 }
 
 }
+@media (max-width:768px){
+  body{ outline: 6px solid red !important; }
+}
