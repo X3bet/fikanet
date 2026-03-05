@@ -257,3 +257,50 @@ body{
 html{
   -webkit-text-size-adjust: 100%;
 }
+
+/* ===== FIX MOVIL (SOLO CELULAR) ===== */
+@media (max-width: 768px){
+
+  /* 1) Logo centrado y más grande */
+  .header{
+    justify-content: center !important;
+    padding: 12px 12px !important;
+  }
+  .header img{
+    height: auto !important;
+    width: min(240px, 72vw) !important;
+    margin: 14px auto 10px auto !important;
+    display: block !important;
+  }
+
+  /* 2) Achicar el cuadro celeste */
+  .hero{
+    height: auto !important;
+    padding: 0 0 18px !important;
+  }
+  .hero-panel{
+    max-width: 92% !important;
+    margin: 10px auto 16px auto !important;
+    padding: 18px 16px !important;
+    border-radius: 18px !important;
+  }
+
+  /* 3) Texto más compacto */
+  .about-title{
+    font-size: 34px !important;
+    line-height: 1.1 !important;
+  }
+  .about-text{
+    font-size: 14px !important;
+  }
+
+  /* 4) Dock abajo (NO tapar el cuadro) */
+  .social-dock{
+    top: auto !important;
+    bottom: 16px !important;
+    left: 12px !important;
+    transform: scale(.92);
+    transform-origin: left bottom;
+  }
+}
+
