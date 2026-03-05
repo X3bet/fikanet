@@ -221,14 +221,10 @@ body{
 
 /* dock de redes un poco más abajo */
 .social-dock{
-    top:220px;
+    top:650px;
 }
 
-}
-@media (max-width:768px){
-  body{ outline: 6px solid red !important; }
-}
-@media (max-width: 768px){
+
 
   /* CUADRO CELESTE (si tu bloque usa hero-panel) */
   .hero-panel{
@@ -253,8 +249,8 @@ body{
 
   header img{
     display: block !important;
-    margin: 12px auto 18px auto !important;
-    width: 150px !important;
+    margin: 100px auto 70px auto !important;
+    width: 250px !important;
     height: auto !important;
   }
 }
