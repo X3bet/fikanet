@@ -340,3 +340,73 @@ html{
   color: #fff; /* 👈 BLANCO */
   cursor: pointer;
 }
+
+/* ===== MENU SUPERIOR ===== */
+.menu-top{
+  position: absolute;
+  top: 30px;
+  right: 40px;
+  display: flex;
+  align-items: center;
+  gap: 22px;
+  z-index: 999;
+}
+
+.menu-links{
+  display: flex;
+  align-items: center;
+  gap: 22px;
+}
+
+.menu-links a{
+  color: #fff !important;
+  text-decoration: none;
+  font-weight: 700;
+  font-size: 14px;
+  letter-spacing: .5px;
+  text-transform: uppercase;
+}
+
+.menu-links a:hover{
+  opacity: .8;
+}
+
+.menu-lang{
+  display: flex;
+  align-items: center;
+}
+
+.menu-lang button{
+  background: transparent;
+  border: none;
+  color: #fff;
+  font-weight: 700;
+  font-size: 14px;
+  letter-spacing: .5px;
+  text-transform: uppercase;
+  cursor: pointer;
+  padding: 0;
+}
+
+.menu-lang button:hover{
+  opacity: .8;
+}
+
+@media (max-width: 768px){
+  .menu-top{
+    top: 20px;
+    right: 16px;
+    gap: 14px;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+  }
+
+  .menu-links{
+    gap: 14px;
+  }
+
+  .menu-links a,
+  .menu-lang button{
+    font-size: 12px;
+  }
+}
